@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name" translatable="false">HopfenJagd</string>
+
+    <string name="notification_channel_name">Game Notification</string>
+    <string name="notification_channel_description">Main notification while game</string>
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="create_game">Create Game</string>
+    <string name="join_game">Join game</string>
+    <string name="next">next</string>
+    <string name="game_id">Game-ID</string>
+    <string name="enter_id">Enter game-ID:</string>
+    <string name="start">start</string>
+    <string name="enter_game_id_hint" translatable="false">XXX-XXX</string>
+    <string name="joining_game">Joining Game...</string>
+    <string name="wait_for_game_start">Waiting for start...</string>
+    <string name="wait_for_creation">Please wait till creation of the game finished...</string>
+    <string name="game_starting">Game ist starting</string>
+    <string name="press_again_to_end">Press back again to end the game</string>
+    <string name="creating">creating...</string>
+    <string name="join_failed">Wrong Game-ID</string>
+    <string name="game_stopped">The game was stopped</string>
+    <string name="player">Player</string>
+    <string name="gps_diabled">GPS disabled</string>
+    <string name="gps_diabled_message">GPS is disabled, please activate it to start a game</string>
+    <string name="runner">Runner</string>
+    <string name="hunter">Hunter</string>
+    <string name="not_enough_players">Not enough players</string>
+    <string name="not_enough_hunter">Not enough hunter</string>
+    <string name="not_enough_runner">Not enough runner</string>
+    <string name="game_running">Game is running</string>
+    <string name="end_no_more_runner">All runner were catched or left.</string>
+    <string name="end_no_more_hunter">All hunter left.</string>
+    <string name="end_won">You won!</string>
+    <string name="end_lost">You lost!</string>
+    <string name="game_ended">The game is over!</string>
+    <string name="ok">OK</string>
+    <string name="catched">Catched</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="catch_question">Do you really catched $name?</string>
+    <string name="continue_as_hunter">You were catched. You want to continue as hunter?</string>
+    <string name="loading_screen">Loading...</string>
+    <string name="wanna_end_game">You really wan\'t to end the game?</string>
+    <string name="stop_game">stop game</string>
+    <string name="end_button">end</string>
+    <string name="till_start_player">Player:</string>
+    <string name="wanna_leave_game">You really want to leave the game?</string>
+    <string name="update_channel_name">Position updates</string>
+    <string name="update_channel_description">Update for new notifications</string>
+    <string name="game">Game</string>
+    <string name="notification_update_position_name">New position</string>
+    <string name="notification_update_position_description">A new position was published</string>
+    <string name="update_notification_group">Player position update</string>
+    <string name="passed_time">Time:</string>
+</resources>

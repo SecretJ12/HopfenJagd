@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.secretj12.hopfenjagd" >
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".activity_loading_screen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity_start_menu"
+            android:screenOrientation="fullSensor" >
+        </activity>
+        <activity
+            android:name=".create_game.activity_create_game"
+            android:label="@string/create_game"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity_join_game"
+            android:label="@string/join_game" />
+        <activity
+            android:name=".activity_till_start"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".map.activity_map"
+            android:screenOrientation="fullSensor" />
+
+        <activity android:name=".activity_end_screen" />
+
+        <service
+            android:name=".Service_Game"
+            android:foregroundServiceType="location"
+            android:enabled="true"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/firebase_default" />
+    </application>
+
+</manifest>

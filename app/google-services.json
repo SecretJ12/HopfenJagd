@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "103787099406",
+    "firebase_url": "https://hopfenjagd.firebaseio.com",
+    "project_id": "hopfenjagd",
+    "storage_bucket": "hopfenjagd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103787099406:android:20fac29d56ddf16b",
+        "android_client_info": {
+          "package_name": "de.secretj12.hopfenjagd"
+        }
+      },
+      "oauth_client": [
+		{
+          "client_id": "103787099406-jq8fg7oqe9g6pn848reqe4968bfj1i9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.secretj12.hopfenjagd",
+            "certificate_hash": "a186c74280371b4c91e7862dfa5baaec799af463"
+          }
+        },
+        {
+          "client_id": "103787099406-a6i4h75tf1uum3g8t97p4m8vt33larjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.secretj12.hopfenjagd",
+            "certificate_hash": "cb90436bfa4e87bbbcc51c2cfe1091de84f74b19"
+          }
+        },
+		{
+		  "client_id": "103787099406-f30ikn1h0khbid167ljvro2rnmnhu9mu.apps.googleusercontent.com",
+		  "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdR6ci58uZCoBk6vlv9v-nz3ifIF78zuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103787099406-f30ikn1h0khbid167ljvro2rnmnhu9mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
